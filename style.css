@@ -1,0 +1,67 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 50%;
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.face{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.tittle{
+    flex: 1px;
+    margin-left: 20px;
+}
+
+.name{
+    color: brown;
+}
+
+.occupation{
+    color: coral;
+}
+
+
+.coral{
+    color: coral;
+}
+
+.line{
+   border: 1px solid coral;
+}
+.heading{
+    display: block;
+    min-width: 300px;
+
+}
+
+.props{
+    font-size: 22px;
+    color:coral;
+}
+
+.marginfix {
+    margin-top: 20px;
+}
+.jobheading{
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.jobduration{
+    font-weight: 300;
+    line-height: 35px;
+}
+
+.description{
+    margin-top: 20px;
+}
